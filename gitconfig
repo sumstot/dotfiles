@@ -11,7 +11,8 @@
 
 [core]
   pager = less -FRSX
-  editor = code --wait
+	editor = vim
+	autocrlf = input
 
 [alias]
   co = checkout
@@ -62,3 +63,5 @@
 [user]
 	email = soren.umstot@gmail.com
 	name = Soren Umstot
+[column]
+	ui = always
